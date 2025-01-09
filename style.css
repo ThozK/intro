@@ -1,0 +1,74 @@
+body {
+  font-size: x-large;
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: rgb(74, 74, 74);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(145, 145, 145);
+  text-decoration: underline;
+}
+
+.image-link {
+  display: inline-block;
+}
+
+.image-link img {
+  display: block;
+  transition: all 0.3s;
+}
+
+.image-link:hover img {
+  content: url('./github-mark2.png');
+}
+
+.centered {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.wrap {
+  display: flex;
+  text-align: center;
+}
+
+.wrap .box-a {
+  flex-grow: 3;
+  width: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.wrap .box-c {
+  width: 0.1px;
+  border-left: 1px solid black;
+}
+
+.wrap .box-b {
+  flex-grow: 3;
+  width: 100px;
+  background-color: #ffffff;
+}
+
+.line {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.line .line2 {
+  width: 0.1px;
+  height: 2px;
+  border-left: 1px solid black;
+}
