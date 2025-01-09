@@ -69,6 +69,6 @@ a:hover {
 
 .line .line2 {
   width: 0.1px;
-  height: 2px;
+  height: 200px;
   border-left: 1px solid black;
 }
