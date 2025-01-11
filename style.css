@@ -21,7 +21,6 @@ a:hover {
 
 .image-link img {
   display: block;
-  transition: all 0.3s;
 }
 
 .image-link:hover img {
