@@ -1,5 +1,5 @@
 body {
-  font-size: x-large;
+  font-size: large;
   font-family: "Kaisei Decol", serif;
   font-weight: 400;
   font-style: normal;
@@ -21,10 +21,6 @@ a:hover {
 
 .image-link img {
   display: block;
-}
-
-.image-link:hover img {
-  content: url('./github-mark2.png');
 }
 
 .centered {
