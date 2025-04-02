@@ -56,7 +56,7 @@ a:hover {
   background-color: #ffffff;
 }
 
-.line {
+/* .line {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -66,4 +66,4 @@ a:hover {
   width: 0.1px;
   height: 200px;
   border-left: 1px solid black;
-}
+} */
